@@ -1,6 +1,6 @@
-def main():
-    print("Hello from bd-study!")
+from importlib.metadata import version
+import OCP
 
-
-if __name__ == "__main__":
-    main()
+print(f"build123d == {version('build123d')}")
+print(f"ocp-vscode == {version('ocp_vscode')}")
+print(f"OCP == {OCP.__version__}")

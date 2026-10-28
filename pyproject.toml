@@ -1,0 +1,7 @@
+[project]
+name = "bd-study"
+version = "0.1.0"
+description = "build123d study course by Claude"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

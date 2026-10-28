@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "build123d study course by Claude"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "build123d==0.13.0",
+    "ocp-vscode==4.2.0",
+]
